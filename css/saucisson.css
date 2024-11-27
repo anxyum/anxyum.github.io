@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  color: white;
 }
 
 body {
@@ -15,21 +16,40 @@ main {
   text-align: center;
   padding: 40px;
   width: 384px;
+  border-radius: 16px;
 }
 
-ul {
+.profile-pic {
+  width: 88px;
+  border-radius: 100%;
+}
+
+.buttons {
   list-style-type: none;
   padding-left: 0px;
+  margin-top: 16px;
+  margin-bottom: 0px;
 }
 
-li {
+.buttons li {
   background-color: #333333;
-  margin-bottom: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
 }
 
-a {
+.buttons a {
   display: block;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.location {
+  color: #C4F82A;
+}
+
+.description {
+  color: grey;
 }
