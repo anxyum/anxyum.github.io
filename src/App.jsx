@@ -9,13 +9,19 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Skills />
-      <Projects />
-      <div className="bg-neutral-800 p-4 mt-20">
-        <Contact />
-        <Footer />
+      <div className="bg-neutral-900 pb-20">
+        <div className="max-w-[1111px] ml-auto mr-auto">
+          <Header />
+          <Hero />
+          <Skills />
+          <Projects />
+        </div>
+      </div>
+      <div className="bg-neutral-800 p-4">
+        <div className="max-w-[1111px] ml-auto mr-auto">
+          <Contact />
+          <Footer />
+        </div>
       </div>
     </>
   );
