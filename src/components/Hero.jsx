@@ -4,7 +4,7 @@ function Component() {
   return (
     <div className="m-4 mt-10 md:flex md:flex-row-reverse">
       <img
-        className="ml-auto mr-auto w-64 mb-10 md:w-fit md:h-[600px] bg-neutral-800 mt-[-136px] pt-36"
+        className="ml-auto mr-auto w-64 mb-10 md:w-fit md:h-[600px]"
         src="./src/assets/the-guy.png"
         alt="the guy"
       />
