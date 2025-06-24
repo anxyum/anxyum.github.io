@@ -18,8 +18,10 @@ jobs:
         run: npm install
       - name: Building the app
         run: npm run build
+      - name: testing ls
+        run: ls -al
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
-          path: /dist/
+          path: dist
