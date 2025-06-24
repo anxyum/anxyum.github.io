@@ -3,7 +3,7 @@ import Link from "./Link";
 
 const projects = [
   {
-    imgSrc: "./src/assets/Bitmap.png",
+    imgSrc: "./assets/Bitmap.png",
     imgAlt: "zrgferg",
     title: "DESIGN PORTFOLIO",
     skills: ["HTML", "CSS"],
@@ -11,7 +11,7 @@ const projects = [
     codeLink: "#",
   },
   {
-    imgSrc: "./src/assets/Bitmap.png",
+    imgSrc: "./assets/Bitmap.png",
     imgAlt: "zrgferg",
     title: "E-LEARNING LANDING PAGE",
     skills: ["HTML", "CSS"],
@@ -19,7 +19,7 @@ const projects = [
     codeLink: "#",
   },
   {
-    imgSrc: "./src/assets/Bitmap.png",
+    imgSrc: "./assets/Bitmap.png",
     imgAlt: "zrgferg",
     title: "TODO WEB APP",
     skills: ["HTML", "CSS", "JAVASCRIPT"],
@@ -27,7 +27,7 @@ const projects = [
     codeLink: "#",
   },
   {
-    imgSrc: "./src/assets/Bitmap.png",
+    imgSrc: "./assets/Bitmap.png",
     imgAlt: "zrgferg",
     title: "ENTERTAINEMENT WEB APP",
     skills: ["HTML", "CSS"],

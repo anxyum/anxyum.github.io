@@ -5,7 +5,7 @@ function Component() {
     <div className="m-4 mt-10 md:flex md:flex-row-reverse">
       <img
         className="ml-auto mr-auto w-64 mb-10 md:w-fit md:h-[600px]"
-        src="./src/assets/the-guy.png"
+        src="./assets/the-guy.png"
         alt="the guy"
       />
       <div className="flex flex-col gap-6 items-center">
